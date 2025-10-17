@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeynep Ceren Erdem – Home</title>
+
+  <!-- Fonts & Styles -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2b4e9c8e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="index.html">ZC</a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION with fade-in -->
+    <div class="hero-inner fade-section">
+      <div class="intro">
+        <h1 class="fade-in">Hi, I'm <span class="accent">Zeynep Ceren Erdem</span> 👋</h1>
+        <p class="subtitle">
+          Geomatics Engineering student at Hacettepe University, passionate about GIS, remote sensing, and data visualization.
+        </p>
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://github.com/zecereve" target="_blank" class="social-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/ceren-erdem-7102b426a/" target="_blank" class="social-btn">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="intro-photo">
+        <img src="images/profile.jpg" alt="Zeynep Ceren profile photo" />
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT with fade-in -->
+  <main class="container fade-section">
+    <section>
+      <h2>Ankara Map (OpenLayers)</h2>
+      <p>An interactive map centered on Ankara, created with OpenLayers.</p>
+      <div id="map" class="map"></div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer fade-section">
+    <p>
+      © <span id="y"></span> Zeynep Ceren Erdem · Made with 💻 & ☕
+    </p>
+  </footer>
+
+  <!-- OpenLayers & Script -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css">
+  <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

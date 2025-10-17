@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – Zeynep Ceren Erdem</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="nav nav-plain">
+    <a class="brand" href="index.html">ZC</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container narrow fade-section">
+    <h1>About Me</h1>
+
+    <p>
+      I’m <strong>Zeynep Ceren Erdem</strong>, a Geomatics Engineering student at 
+      <strong>Hacettepe University</strong>.  
+      My academic interests mainly focus on <strong>remote sensing, image processing, and spatial data analysis</strong>.  
+      I work mostly with <strong>Python</strong> and <strong>QGIS</strong>, and I love blending analytical precision with visual storytelling in my projects.  
+      I’m motivated by creativity, problem-solving, and curiosity — values that shape the way I approach both engineering and life.
+    </p>
+
+    <!-- CV BUTTON -->
+    <a href="cv/ZeynepErdemCV.pdf" class="btn" download>📄 Download CV</a>
+
+    <h2>Technologies I Use</h2>
+    <canvas id="skillsChart" width="280" height="230"></canvas>
+
+    <h2>Beyond Engineering</h2>
+    <p>
+      Outside of work and study, I enjoy photography, traveling, and quiet coffee moments.  
+      I like capturing small details and emotions — the same way I like finding meaning in data.  
+      These moments help me stay grounded and creative, and often inspire how I visualize spatial information.
+    </p>
+
+    <!-- PHOTO GRID -->
+    <div class="photo-grid soft-grid">
+      <img src="images/travel1.jpg" alt="Travel photo 1">
+      <img src="images/travel2.jpg" alt="Travel photo 2">
+      <img src="images/travel3.jpg" alt="Travel photo 3">
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact fade-section">
+      <h2>Let’s Connect</h2>
+      <p>
+        Feel free to reach out — I’m always open to talk about GIS, remote sensing, or new projects!
+      </p>
+      <div class="social-links">
+        <a href="mailto:yourmail@example.com" class="social-btn">✉️ Email</a>
+        <a href="https://github.com/zecereve" target="_blank" class="social-btn">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/ceren-erdem-7102b426a/" target="_blank" class="social-btn">💼 LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <p class="quote fade-section">
+      “Fueled by coffee, inspired by maps, and always learning something new.”
+    </p>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer fade-section">
+    <p>© <span id="y"></span> Zeynep Ceren Erdem</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Chart.js - Doughnut
+    const ctx = document.getElementById('skillsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Python', 'QGIS / GIS Tools', 'Remote Sensing', 'HTML / CSS / JS', 'PostgreSQL / PostGIS'],
+        datasets: [{
+          data: [35, 30, 10, 5, 20],
+          backgroundColor: [
+            '#ff4fa3', '#ffa3d6', '#c2bcd6', '#e7dff0', '#f9f4fa'
+          ],
+          borderColor: '#fff',
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: { display: true, text: 'Tech Stack Distribution' }
+        }
+      }
+    });
+
+    // Scroll fade-in animation
+    const faders = document.querySelectorAll('.fade-section');
+    const appearOptions = { threshold: 0.15 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+</body>
+</html>
