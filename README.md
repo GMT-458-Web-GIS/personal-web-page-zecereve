@@ -74,5 +74,5 @@ _Add a screenshot of your homepage as `images/website.png`._
 ##  Note
 
 This project was developed as an **individual assignment** for the GMT458 course.  
-It can be viewed live via GitHub Pages at:  
-👉 [https://gmt-458-web-gis.github.io/personal-web-page-zecereve/](https://gmt-458-web-gis.github.io/personal-web-page-zecereve/)
+The downloadable CV available on the **About** page represents an earlier version of my résumé created for course purposes.  
+It is **not my latest professional CV**, and some details (such as recent experience and updated skills) may differ from my current profile.
