@@ -1,11 +1,11 @@
-#  Personal Web Page – Zeynep Ceren Erdem
+# 🌸 Personal Web Page – Zeynep Ceren Erdem
 
 This website was created as part of the **GMT458 – Web GIS** course at **Hacettepe University, Department of Geomatics Engineering**.  
 The main goal of the project is to design a personal portfolio website that introduces my background, interests, and academic projects in a professional and creative way.
 
 ---
 
-##  Website Structure
+## 🏠 Website Structure
 
 | Page | Description |
 |------|--------------|
@@ -15,7 +15,7 @@ The main goal of the project is to design a personal portfolio website that intr
 
 ---
 
-##  Technologies Used
+## 🧩 Technologies Used
 
 - **HTML / CSS / JavaScript** – For structure, design, and interactivity  
 - **OpenLayers** – For embedding interactive web maps  
@@ -24,10 +24,8 @@ The main goal of the project is to design a personal portfolio website that intr
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
-
-```text
 personal-web-page-zecereve/
 │
 ├── index.html
@@ -36,17 +34,15 @@ personal-web-page-zecereve/
 ├── styles.css
 ├── script.js
 │
-├── images/              → Personal and project-related images
-├── projects/            → Project folders (GNSS, TR8, Remote Sensing)
-│   ├── GNSS/
-│   ├── TR8/
-│   └── beytepe_modified/
+├── images/ → Personal and project-related images
+├── projects/ → Project folders (GNSS, TR8, Remote Sensing)
+│ ├── GNSS/
+│ ├── TR8/
+│ └── beytepe_modified/
 └── README.md
-
-
 ---
 
-##  Use of Artificial Intelligence
+## 🧠 Use of Artificial Intelligence
 
 During the preparation of this project, **AI-based tools (ChatGPT)** were used for limited technical assistance.  
 AI support was applied only for:  
@@ -60,15 +56,15 @@ All data, design decisions, and written content were produced and finalized by m
 
 ---
 
-##  Preview
+## 🖼️ Preview
 
-![Webpage Preview](images/website.png)  
+![Webpage Preview](images/website.png)
 
 _Add a screenshot of your homepage as `images/website.png`._
 
 ---
 
-##  Project Summary
+## 📈 Project Summary
 
 | Project | Description | File |
 |----------|--------------|------|
@@ -78,7 +74,7 @@ _Add a screenshot of your homepage as `images/website.png`._
 
 ---
 
-##  Note
+## 🪄 Note
 
 This project was developed as an **individual assignment** for the GMT458 course.  
 It can be viewed live via GitHub Pages at:  
