@@ -1,4 +1,4 @@
-# 🌸 Personal Web Page – Zeynep Ceren Erdem
+# Personal Web Page – Zeynep Ceren Erdem
 
 This website was created as part of the **GMT458 – Web GIS** course at **Hacettepe University, Department of Geomatics Engineering**.  
 The main goal of the project is to design a personal portfolio website that introduces my background, interests, and academic projects in a professional and creative way.
@@ -42,16 +42,32 @@ personal-web-page-zecereve/
 │   └── beytepe_modified/
 └── README.md
 
-## **Use of Artificial Intelligence**
-During the preparation of this project, AI-based tools (ChatGPT) were used for limited technical assistance. AI support was applied only for: Resolving syntax and layout issues. Improving code readability and structure. Providing guidance on OpenLayers integration and animation logic.
-All data, design decisions, and written content were produced and finalized by me.
-Total AI-assisted work time: a few hours
-Purpose: to enhance learning and technical precision.
 
- ## Preview
- images/website.png
+---
 
- ## Project Summary
+##  Use of Artificial Intelligence
+
+During the preparation of this project, **AI-based tools (ChatGPT)** were used for limited technical assistance.  
+AI support was applied only for:
+- Resolving syntax and layout issues  
+- Improving code readability and structure  
+- Providing guidance on OpenLayers integration and animation logic  
+
+All data, design decisions, and written content were produced and finalized by me.  
+**Total AI-assisted work time:** a few hours  
+**Purpose:** to enhance learning and technical precision.
+
+---
+
+##  Preview
+
+![Webpage Preview](images/website.png)
+
+_(Add a screenshot of your homepage as `images/website.png`.)_
+
+---
+
+##  Project Summary
 
 | Project | Description | File |
 |----------|--------------|------|
@@ -59,8 +75,12 @@ Purpose: to enhance learning and technical precision.
 | **Remote Sensing – Beytepe Lab 01** | Satellite image processing and land-cover classification | `projects/beytepe_modified/ceren1.pdf` |
 | **TR8 Thematic Map Project** | Choropleth and dot map visualization for TR8 region (2021) population and motor vehicle data | `projects/TR8/TR8_Report.pdf` |
 
-## Note
-This project was developed as an individual assignment for the GMT458 course.
-It can be viewed live via GitHub Pages at:
-👉 https://gmt-458-web-gis.github.io/personal-web-page-zecereve/
+---
+
+##  Note
+
+This project was developed as an **individual assignment** for the GMT458 course.  
+It can be viewed live via GitHub Pages at:  
+👉 [https://gmt-458-web-gis.github.io/personal-web-page-zecereve/](https://gmt-458-web-gis.github.io/personal-web-page-zecereve/)
+
 
