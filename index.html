@@ -15,7 +15,7 @@
 
 <body>
   <!-- NAVIGATION -->
-  <header class="hero">
+  <header>
     <nav class="nav">
       <a class="brand" href="index.html">ZC</a>
       <ul>
@@ -25,36 +25,45 @@
       </ul>
     </nav>
 
+    <!-- HERO SECTION -->
     <!-- HERO SECTION with fade-in -->
-    <div class="hero-inner fade-section">
-      <div class="intro">
-        <h1 class="fade-in">Hi, I'm <span class="accent">Zeynep Ceren Erdem</span> 👋</h1>
-        <p class="subtitle">
-          Geomatics Engineering student at Hacettepe University, passionate about GIS, remote sensing, and data visualization.
-        </p>
+<section class="hero fade-section">
+  <div class="hero-inner balanced-layout">
+    
+    <!-- LEFT TEXT -->
+    <div class="intro">
+      <h1>Hi, I'm <span class="accent">Zeynep Ceren Erdem</span> 👋</h1>
+      <p class="subtitle">
+        Geomatics Engineering student at Hacettepe University, passionate about GIS, remote sensing, and data visualization.  
+        I like transforming spatial data into meaningful and creative insights.
+      </p>
 
-        <!-- Social Links -->
-        <div class="social-links">
-          <a href="https://github.com/zecereve" target="_blank" class="social-btn">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/ceren-erdem-7102b426a/" target="_blank" class="social-btn">
-            <i class="fab fa-linkedin"></i> LinkedIn
-          </a>
-        </div>
-      </div>
-
-      <div class="intro-photo">
-        <img src="images/profile.jpg" alt="Zeynep Ceren profile photo" />
+      <div class="social-links">
+        <a href="https://github.com/zecereve" target="_blank" class="social-btn">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/ceren-erdem-7102b426a/" target="_blank" class="social-btn">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="about.html" class="btn-ghost">✨ Learn More About Me</a>
       </div>
     </div>
+
+    <!-- RIGHT PHOTO -->
+    <div class="intro-photo">
+      <img src="images/profile.jpg" alt="Zeynep Ceren Erdem" />
+    </div>
+
+  </div>
+</section>
   </header>
 
-  <!-- MAIN CONTENT with fade-in -->
+  <!-- MAIN CONTENT -->
   <main class="container fade-section">
     <section>
-      <h2>Ankara Map (OpenLayers)</h2>
-      <p>An interactive map centered on Ankara, created with OpenLayers.</p>
+      <h2>Places I've Been</h2>
+      <p>Discover the cities I’ve visited across Turkey —  
+      each marker represents a memory and a moment worth remembering.</p>
       <div id="map" class="map"></div>
     </section>
   </main>
