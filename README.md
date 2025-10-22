@@ -76,3 +76,11 @@ _Add a screenshot of your homepage as `images/website.png`._
 This project was developed as an **individual assignment** for the GMT458 course.  
 The downloadable CV available on the **About** page represents an earlier version of my résumé created for course purposes.  
 It is **not my latest professional CV**, and some details (such as recent experience and updated skills) may differ from my current profile.
+
+---
+## ⚙️ Hosting
+
+The website is publicly available at the following link:  
+🔗 **Live Demo:** [https://zecereve.github.io/personal-web-page-zecereve/](https://zecereve.github.io/personal-web-page-zecereve/)
+
+---
